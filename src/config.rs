@@ -56,7 +56,7 @@ pub fn parse_args() -> Result<Config, String> {
 }
 
 pub fn print_help() {
-    println!("Usage: grep <query> <path> [options]");
+    println!("Usage: look <query> <path> [options]");
     println!("Options:");
     println!("  -i  Ignore case");
     println!("  -q  Quiet mode (exit with 0 if match found)");
